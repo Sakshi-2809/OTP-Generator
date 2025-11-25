@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+}
+#ma {
+    color: cyan;
+    text-shadow: 0 0 40px cyan;
+    box-shadow: 0 0 20px cyan;
+    border: 5px double cyan;
+    font-family: serif;
+    font-style: oblique;
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 2s;
+
+}
+button {
+    height: 100px;
+    width: 500px;
+    font-size: 60px;
+    font-family: serif;
+    font-style: oblique;
+    color: cyan;
+    text-shadow: 0 0 20px cyan;
+    border: 5px double cyan;
+    box-shadow: 0 0 20px cyan;
+    padding: 20px;
+    text-align: center;
+    margin-left: 250px;
+    
+
+}
+button:active {
+    background-color: cyan;
+    color: black;
+    text-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px cyan;
+    border: 5px double black;
+
+}
+
